@@ -9877,6 +9877,7 @@ h3 {
 }
 body {
   font-family: "Raleway", sans-serif;
+  background: pink;
 }
 
 .navbar {
@@ -9891,6 +9892,15 @@ body {
 .navbar .nav-link:hover {
   transition: border 0.5s;
   border-bottom: 1px solid navajowhite;
+}
+
+@media (max-width: 786px) {
+  .navbar {
+    background: #404040;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

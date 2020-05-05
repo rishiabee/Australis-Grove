@@ -1,5 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
+  background: pink;
 }
 
 .navbar{
@@ -16,5 +17,15 @@ body {
   .nav-link:hover {
     transition: border 0.5s;
     border-bottom: 1px solid navajowhite;
+  }
+}
+
+@media(max-width: 786px) {
+  .navbar {
+    background: #404040;
+
+    .nav-link:hover {
+      border-bottom: none;
+    }
   }
 }
